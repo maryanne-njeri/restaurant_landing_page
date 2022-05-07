@@ -4,14 +4,14 @@
     margin: 0;
 }
 
-nav > div {
+.backgroundImage {
     background-color: black;
     background-image: url('../images/moving\ 1.png');
-    height: 100vh;
+    height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-origin: content-box;
+    /* background-origin: content-box; */
 }
 
 ul {
@@ -56,3 +56,21 @@ ul li .btn-black {
     color: #FAFF00;
 }
 
+.hero-content {
+    width: 40%;
+    margin-left: 60px;
+}
+
+.hero-content p:first-child {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #FAFF00;
+
+}
+
+.hero-content p:last-child {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #FFF;
+
+}
