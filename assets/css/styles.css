@@ -2,12 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Adamina', serif;
 }
 
 .backgroundImage {
     background-color: black;
     background-image: url('../images/moving\ 1.png');
-    height: 80vh;
+    height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,20 +58,21 @@ ul li .btn-black {
 }
 
 .hero-content {
-    width: 40%;
-    margin-left: 60px;
+    width: 35%;
+    margin-left: 100px;
 }
 
 .hero-content p:first-child {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 30px;
     color: #FAFF00;
 
 }
 
 .hero-content p:last-child {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 5px;
     color: #FFF;
+    font-family: 'Poppins', sans-serif;
 
 }
