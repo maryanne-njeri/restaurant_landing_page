@@ -14,13 +14,13 @@ html, body {
     background-size: cover;
 }
 
-ul {
+.backgroundImage ul {
     display: flex;
     justify-content: end;
     padding-top: 60px;
 }
 
-ul li {
+.backgroundImage ul li {
     color: white;
     list-style-type: none;
     font-weight: 300;
@@ -96,6 +96,7 @@ ul li .btn-black {
 
 .hustle-content {
     width: 300px;
+    margin-left: 60px;
 }
 
 /* Horizontal line thickness */
@@ -272,6 +273,7 @@ footer ul li {
 
 .page2-nav {
     background-color: #000;
+    
 }
 
 .arrow {
@@ -287,11 +289,32 @@ footer ul li {
     display: flex;
     justify-content: space-between;
     color: #fff;
-    padding: 5px 150px;
+    padding: 5px 105px;
 }
 
 .land-size {
     text-align: right;
+}
+
+.page2-background ul{
+    display: flex;
+    justify-content: end;
+    padding-top: 60px;
+    padding-right: 70px;
+}
+
+.page2-background ul li {
+    color: white;
+    list-style-type: none;
+    font-weight: 300;
+    padding-right: 40px;
+
+}
+
+.footer-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Responsiveness */
@@ -356,6 +379,13 @@ footer ul li {
     
     .land-size {
         text-align: left;
+    }
+
+    /* page 2 */
+
+    .footer-head {
+        display: flex;
+        flex-direction: column;
     }
     
 }
