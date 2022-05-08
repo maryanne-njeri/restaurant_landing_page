@@ -1,5 +1,5 @@
 # Project Name
-> Landing Page Assignment (Week One)
+> Restuarant Landing Page Assignment (Week Two)
 
 # Author Name
 > **Rosemary Njeri**, Access student program, Class MPP25
@@ -10,23 +10,16 @@
 
 By the end of the this project, the following tasks **Must** have been completed
 
-- [X] Correct use of HTML Elements and tags;
-- [X] p, div, span, header tags, ordered and unordered list tags, img, strong, em
-- [X] The page incorporates a custom-made stylesheet 
-- [X] Use of at least 4 of the following styling rules
-- [X] box model
-- [X] background-color
-- [X] font family
-- [X] pseudoclasses
-- [X] strong and em tags
-- [X] overflow
-- [X] borders
-- [X] block elements
-- [X] Font weight 
-- [X] Font style
-- [X] The web page is visually appealing
-- [X] The project design
-- [X] The page is published/deployed to gh-pages
+- [] The implementation of HTML concepts is covered so far in this module.
+- [] The project includes a custom-made stylesheet that uses typography styles, 
+- [] cascading, the box model, and floats.
+- [] Code is clean, well-refactored, and easy to read. This includes correct indentation, spacing, and includes only necessary comments.
+- [] Commits are made regularly with clear messages that finish with the phrase "It will…"
+- [] ReadMe
+- [] The project demonstrates an understanding of this week's concepts. If prompted, you can discuss your code with an instructor using the correct terminology.
+- [] Required content was in place by the deadline.
+
+
 
 # Project setup instructions
 
