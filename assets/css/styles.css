@@ -109,7 +109,7 @@ hr {
 
 
 /* section one */
-.section-one div h2 {
+h2 {
     font-size: 35px;
     font-weight: 200;
 }
@@ -133,31 +133,31 @@ hr {
     margin-top: 40px;
 }
 
-.arrow{
+.arrow {
     font-size: 30px;
 }
 
 /* section two */
 
-.section-two{
+.section-two {
     background-color: rgb(229, 227, 227);
-    padding: 120px;
+    padding: 100px;
 }
 
-.section-two h1 {
-    font-size: xx-large;
+.movers-heading {
+    margin-bottom: 140px;
 }
 
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .card-one {
     background: #fff;
-    width: 243px;
-    margin-top: 180px;
+    width: 30%;
+    margin-top: 40px;
     border-radius: 10px;
 }
 
@@ -168,21 +168,30 @@ hr {
 .card-one h4 {
     margin-top: 30px;
     margin-left: 20px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .btn-container {
     display: flex;
-    justify-content: center;
-    /* background-color: lightgray; */
+    justify-content: space-between;
 }
 
 .btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
     margin-top: 20px;
     padding: 10px 35px;
     text-align: center;
     border: 1px solid lightgrey;
     background-color: #fff;
     border-bottom: none;
+}
+
+.svg {
+    font-size: 10px;
 }
 
 .btn:first-child {
