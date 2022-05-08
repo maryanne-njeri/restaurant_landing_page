@@ -208,7 +208,6 @@ h2 {
 footer {
     height: 400px; 
     background-image:linear-gradient(to top right, black, black, black, orange); 
-    background-color: black; 
     padding: 100px;
     color: #fff;
 }
@@ -219,7 +218,6 @@ footer h2 span{
 }
 
 .line {
-    /* background: rgb(87, 87, 87); */
     border-bottom: 1px solid rgb(47, 47, 47);
     margin: 50px 0px;
 
@@ -230,7 +228,6 @@ footer h2 span{
     justify-content: space-between;
     align-items: center;
     font-family: 'Actor', sans-serif;
-
 }
 
 .fa {
@@ -249,12 +246,14 @@ footer ul {
     text-decoration: none;
     padding: 0;
     margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 footer ul li {
     font-size: small;
     font-weight: 100;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -426,4 +425,81 @@ footer ul li {
         padding-top: 40px;
     }
 
+}
+
+@media screen and (max-width: 1000px) {
+    /* footer */
+    footer {
+        height: 500px; 
+        background-image:linear-gradient(to top right, black, black, black, orange); 
+        padding: 100px;
+        color: #fff;
+    }
+
+    footer h2 span{
+        color: #FAFF00;
+        font-family: 'Actor', sans-serif;
+    }
+
+    .line {
+        border-bottom: 1px solid rgb(47, 47, 47);
+        margin: 50px 0px;
+
+    }
+
+    .links-container {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        font-family: 'Actor', sans-serif;
+        width: 100%;
+    }
+
+    .fa {
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    footer h3 {
+        font-weight: 300;
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        padding: 0;
+        margin-bottom: 20px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    footer ul li {
+        font-size: small;
+        font-weight: 100;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* footer */
+    footer {
+        height: auto; 
+        background-image:linear-gradient(to top right, black, black, black, orange); 
+        /* background-color: black;  */
+        padding: 100px;
+        color: #fff;
+    }
+
+    .links-container {
+        display: block;
+    }
+
+    .fa {
+        display: block;
+    }
 }
