@@ -3,7 +3,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/page2.css">
+
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
@@ -21,10 +26,10 @@
     <nav class="page2-nav">
         <div class="page2-background">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Movers</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#movers">Movers</a></li>
+                <li><a href="#contact">Contact Us</a></li>
                 <li>
                     <button class="work-with-us">Learn more
                         <span class="arrow">&rarr;</span>
@@ -56,9 +61,19 @@
             </div>
             <div class="card-right">
                 <form>
-                    <input type="text" value="Name" class="inputName"><br>
-                    <input type="text" Phone="Phone" class="inputPhone"><br>
-                    <input type="text" Email="Email" class="inputEmail">
+                    <div class="profile">
+                        <div class="thumbnail">
+                            <img src="assets/images/profile.jpg" alt="avatar">
+                        </div>
+                        <div class="profile-info">
+                            <h4 class="user-name">Kayley Hall</h4>
+                            <p class="user-profile">View profile</p>
+                        </div>
+                    </div>
+                    <input type="text" class="inputName" placeholder="Name"><br>
+                    <input type="phone" class="inputPhone" placeholder="Phone"><br>
+                    <input type="email" class="inputEmail" placeholder="Email">
+                    <input type="submit" class="inputBtn" value="Learn more">
                 </form>
             </div>
         </div>

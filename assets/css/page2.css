@@ -1,0 +1,167 @@
+/************ Page two **************/
+.page2 {
+    font-family: 'Actor', sans-serif;
+}
+
+.page2-nav {
+    background-color: #000;
+    
+}
+
+.arrow {
+    color: #fff;
+}
+
+.page2-line {
+    margin-top: 30px;
+    border-bottom: solid 1px rgb(90, 88, 88);
+}
+
+.page2-hero-content {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 5px 105px;
+}
+
+.land-size {
+    text-align: right;
+}
+
+.page2-background ul{
+    display: flex;
+    justify-content: end;
+    padding-top: 60px;
+    padding-right: 70px;
+}
+
+.page2-background ul li {
+    color: white;
+    list-style-type: none;
+    font-weight: 300;
+    padding-right: 40px;
+
+}
+
+/*************** main styling page two *************/
+
+main {
+    background-color: rgb(229, 227, 227);
+}
+
+.hero-two {
+    display: flex;
+    padding: 60px 110px;
+}
+
+.image-property {
+    width: 70%;
+    margin-right: 40px;
+}
+
+.image-property img {
+    width: 100%;
+}
+
+.card-right {
+    width: 30%;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.card-right form .inputName, .inputPhone, .inputEmail, .profile{
+    width: 86%;
+    padding: 15px;
+    margin: 20px;
+}
+
+.card-right form .inputBtn{
+    border-top-right-radius: 10px;
+    width: 86%;
+    padding: 20px;
+    margin: 20px;
+    background: #000;
+    color: #fff;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    background-color: rgb(234, 233, 233);
+    margin-bottom: 20px;
+}
+.thumbnail {
+    width: 100%;
+}
+.thumbnail img{
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 15px;
+
+}
+
+.profile-info {
+    width: 100%;
+    text-align: left;
+}
+
+.user-profile {
+    color: #FFAC12;
+}
+
+input {
+    border: 1px solid lightgray; 
+}
+
+.inputName {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.inputPhone {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.inputEmail {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+/*********** footer styling page 2 *********/
+
+.footer-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 800px) {
+
+    .page2-background ul {
+        padding-left: 100px;
+    }
+    
+    .page2-hero-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .land-size {
+        text-align: left;
+    }
+
+    .footer-head {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+    .work-with-us {
+        margin-top: 20px;
+    }
+}

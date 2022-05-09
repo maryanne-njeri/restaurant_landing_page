@@ -100,12 +100,11 @@ ul li .btn-black {
 }
 
 /* Horizontal line thickness */
-.hr {
-    height: 5px;
+.h2-line {
     background-image: linear-gradient(to right , orange, black);
     background-color: orange;
-    width: 150px;
-    margin-bottom: 20px;
+    padding: 2px;
+    width: 120px;
 }
 
 
@@ -264,108 +263,8 @@ footer ul li {
     font-size: small;
     font-weight: 100;
     margin-bottom: 10px;
-}
-
-/* Page two */
-.page2 {
-    font-family: 'Actor', sans-serif;
-}
-
-.page2-nav {
-    background-color: #000;
-    
-}
-
-.arrow {
-    color: #fff;
-}
-
-.page2-line {
-    margin-top: 30px;
-    border-bottom: solid 1px rgb(90, 88, 88);
-}
-
-.page2-hero-content {
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    padding: 5px 105px;
-}
-
-.land-size {
-    text-align: right;
-}
-
-.page2-background ul{
-    display: flex;
-    justify-content: end;
-    padding-top: 60px;
-    padding-right: 70px;
-}
-
-.page2-background ul li {
-    color: white;
     list-style-type: none;
-    font-weight: 300;
-    padding-right: 40px;
-
 }
-
-/* main styling page two */
-
-main {
-    background-color: rgb(229, 227, 227);
-}
-
-.hero-two {
-    display: flex;
-    padding: 60px 110px;
-}
-
-.image-property {
-    margin-right: 40px;
-}
-
-.card-right {
-    background: #fff;
-    border-radius: 20px;
-}
-
-.card-right form {
-    /* padding: 45px; */
-    width: 40%;
-}
-
-input {
-    /* padding: 10px 60px; */
-    border: 1px solid lightgray; 
-}
-
-.inputName {
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-.inputPhone {
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-.inputEmail {
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-
-/* footer */
-
-.footer-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Responsiveness */
 
 @media screen and (max-width: 768px) {
     .backgroundImage {
@@ -415,25 +314,6 @@ input {
         color: #FFF;
         font-family: 'Poppins', sans-serif;
     
-    }
-
-    /* Page two */
-    .page2-hero-content {
-        display: flex;
-        flex-direction: column;
-        color: #fff;
-        padding: 5px 40px; 
-    }
-    
-    .land-size {
-        text-align: left;
-    }
-
-    /* page 2 */
-
-    .footer-head {
-        display: flex;
-        flex-direction: column;
     }
     
 }
