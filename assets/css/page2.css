@@ -89,25 +89,35 @@ main {
     align-items: center;
     width: 75%;
     background-color: rgb(234, 233, 233);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 10px;
 }
 .thumbnail {
-    width: 100%;
+    width: 60%;
 }
 .thumbnail img{
-    width: 40%;
+    width: 30%;
     border-radius: 50%;
-    margin-left: 15px;
+    margin-left: 10px;
 
 }
 
 .profile-info {
     width: 100%;
-    text-align: left;
+    /* text-align: left; */
+}
+
+.user-name {
+    /* color: #FFAC12; */
+    font-size: small;
+    padding-top: 10px;
 }
 
 .user-profile {
     color: #FFAC12;
+    font-size: small;
+    margin-right: 80px;
 }
 
 input {
